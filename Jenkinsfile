@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_REPO = "mycompany/payment"
+        IMAGE_REPO = "AkhilTholada/payment"
         IMAGE_TAG = "${BUILD_NUMBER}"
         IMAGE = "${IMAGE_REPO}:${IMAGE_TAG}"
     }
